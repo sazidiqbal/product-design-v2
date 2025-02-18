@@ -11,7 +11,7 @@ const Hero = () => {
     <section className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-4 mb-4">
       <div className="flex flex-col gap-18 lg:gap-16 bg-[url('/assets/gradient-bg.jpg')] bg-cover bg-zinc-200 h-[30rem] rounded-3xl p-10">
         <h1 className="text-4xl font-semibold">
-          Hello, I&apos;am a Product Designer with 8 years of expriences.
+          Hello, I&apos;am a Product Designer with 3 years of expriences.
         </h1>
         <p className="flex-1 font-medium w-auto text-gray-800">
           I am deeply passionate about the transformative potential of design
@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="flex flex-col items-center gap-6 lg:flex-row justify-self-end">
           <Link
             href="/"
-            className="px-12 py-3 font-medium text-white bg-[#ff5e1a] rounded-full w-60 lg:w-auto"
+            className="px-12 py-3 font-medium text-white bg-[#000000] rounded-full w-60 lg:w-auto"
           >
             Contact me
           </Link>
@@ -43,7 +43,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="p-8 h-[30rem] rounded-3xl bg-[url('/assets/profile.jpg')] bg-cover bg-center "></div>
+      <div className="p-8 h-[30rem] rounded-3xl bg-[url('/assets/profile.png')] bg-cover bg-center "></div>
     </section>
   );
 };

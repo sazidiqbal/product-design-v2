@@ -8,7 +8,7 @@ import VideoPlayer from "@/components/video-player";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <Navbar />
       <Hero />
       <About />
@@ -16,6 +16,6 @@ export default function Home() {
       <Projects />
       <Contact />
       <Footer />
-    </main>
+    </>
   );
 }

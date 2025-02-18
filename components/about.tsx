@@ -11,6 +11,7 @@ const About = () => {
         for digital products. I believe that a catchy design starts with common
         values, open communication, and respect for your audience.
       </p>
+      <p>Hello</p>
     </section>
   );
 };
